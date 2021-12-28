@@ -50,5 +50,19 @@
       "text": "**PAGE NOT FOUND**",
       "font": "t-heading-1"
     }
+  },
+  "store.prixiest": {
+    "blocks":[
+      "prixiest",
+      "prixiestViewer"
+    ]
+  },
+  "prixiestViewer": {},
+  "store.omniquote": {
+    "blocks":[
+      "omniquote",
+      "addToQuoteButton",
+      "goToQuoteButton"
+    ]
   }
 }

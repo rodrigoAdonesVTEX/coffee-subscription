@@ -9,7 +9,7 @@
     "children": [
       "flex-layout.row#1-desktop",
       "flex-layout.row#2-desktop",
-      "flex-layout.row#3-desktop",
+      //"flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
   },
@@ -22,7 +22,7 @@
   },
 
   "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
+   // "children": ["notification.bar#home"],
     "props": {
       "fullWidth": "true"
     }
@@ -73,7 +73,9 @@
       "search-bar",
       "locale-switcher",
       "login",
-      "minicart.v2"
+      "minicart.v2",
+      "goToQuoteButton",
+      "prixiestViewer"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -108,7 +110,8 @@
       "logo#mobile",
       "flex-layout.col#spacer",
       "login",
-      "minicart.v2"
+      "minicart.v2",
+      "goToQuoteButton"
     ],
     "props": {
       "blockClass": "main-header-mobile",
