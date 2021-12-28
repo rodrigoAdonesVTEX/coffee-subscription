@@ -73,7 +73,9 @@
       "search-bar",
       "locale-switcher",
       "login",
-      "minicart.v2"
+      "minicart.v2",
+      "goToQuoteButton",
+      "prixiestViewer"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -108,7 +110,8 @@
       "logo#mobile",
       "flex-layout.col#spacer",
       "login",
-      "minicart.v2"
+      "minicart.v2",
+      "goToQuoteButton"
     ],
     "props": {
       "blockClass": "main-header-mobile",
